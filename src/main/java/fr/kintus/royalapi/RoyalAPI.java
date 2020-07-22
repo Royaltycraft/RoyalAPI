@@ -15,28 +15,31 @@ import net.minecraftforge.fml.common.eventhandler.EventBus;
 @Mod(modid = ModUtils.MODID, name = ModUtils.NAME, version = ModUtils.VERSION)
 public class RoyalAPI {
 
+	
+	/**
+	 * Used by modders
+	 * @return The event bus where you register RoyaltyEvents
+	 */
+//	public static EventBus royaltyEventBus = new EventBus();
+	
     public static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
-
-		EventBus forgeBus = MinecraftForge.EVENT_BUS;
-		forgeBus.register(new RoyaltyEventManager());
-		
+        
+        
+		logger.info("===== Registering API Packets =====");
+    	ModAPIPacket.init();
+    	
+		logger.info("===== Registering API Events =====");
+		MinecraftForge.EVENT_BUS.register(new RoyaltyEventManager());
+        
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
 
-		logger.info("===== Registering API Packets =====");
-    	ModAPIPacket.init();
-    	
-
-		logger.info("===== Registering API Events =====");
-		EventBus forgeBus = MinecraftForge.EVENT_BUS;
-		forgeBus.register(new RoyaltyEventManager());
-		
     }
 
 }
