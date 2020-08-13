@@ -1,0 +1,366 @@
+Unsupposrted library path: F:\Royalty\RoyalAPI\build\classes\api
+Unsupposrted library path: F:\Royalty\RoyalAPI\build\resources\api
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "fr/kintus/royalapi/RoyalAPI.java" md5: 8784367e8a91a01c1318ba35401caff6
+@|fr/kintus/royalapi/RoyalAPI.java|8|26|fr.kintus.royalapi|package|fr.kintus.royalapi|(file)
+Class Start: fr.kintus.royalapi.RoyalAPI
+   @|fr/kintus/royalapi/RoyalAPI.java|520|523|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|fr/kintus/royalapi/RoyalAPI.java|524|529|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|fr/kintus/royalapi/RoyalAPI.java|532|540|ModUtils|class|fr.kintus.royalapi.utils.ModUtils|false
+   @|fr/kintus/royalapi/RoyalAPI.java|541|546|MODID|field|fr.kintus.royalapi.utils.ModUtils|MODID
+   @|fr/kintus/royalapi/RoyalAPI.java|548|552|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|fr/kintus/royalapi/RoyalAPI.java|555|563|ModUtils|class|fr.kintus.royalapi.utils.ModUtils|false
+   @|fr/kintus/royalapi/RoyalAPI.java|564|568|NAME|field|fr.kintus.royalapi.utils.ModUtils|NAME
+   @|fr/kintus/royalapi/RoyalAPI.java|570|577|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|fr/kintus/royalapi/RoyalAPI.java|580|588|ModUtils|class|fr.kintus.royalapi.utils.ModUtils|false
+   @|fr/kintus/royalapi/RoyalAPI.java|589|596|VERSION|field|fr.kintus.royalapi.utils.ModUtils|VERSION
+   @|fr/kintus/royalapi/RoyalAPI.java|612|620|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+   @|fr/kintus/royalapi/RoyalAPI.java|804|810|Logger|class|org.apache.logging.log4j.Logger|false
+   @|fr/kintus/royalapi/RoyalAPI.java|804|810|Logger|class|org.apache.logging.log4j.Logger|false
+   @|fr/kintus/royalapi/RoyalAPI.java|811|817|logger|field|fr.kintus.royalapi.RoyalAPI|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|891|896|event|param|fr.kintus.royalapi.RoyalAPI|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|fr/kintus/royalapi/RoyalAPI.java|827|839|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|fr/kintus/royalapi/RoyalAPI.java|857|864|preInit|method|fr.kintus.royalapi.RoyalAPI|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|865|890|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|fr/kintus/royalapi/RoyalAPI.java|909|915|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/RoyalAPI.java|918|923|event|param|fr.kintus.royalapi.RoyalAPI|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|fr/kintus/royalapi/RoyalAPI.java|924|933|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|fr/kintus/royalapi/RoyalAPI.java|960|966|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/RoyalAPI.java|967|971|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|1018|1030|ModAPIPacket|class|fr.kintus.royalapi.network.ModAPIPacket|false
+      @|fr/kintus/royalapi/RoyalAPI.java|1031|1035|init|method|fr.kintus.royalapi.network.ModAPIPacket|init|()V
+      @|fr/kintus/royalapi/RoyalAPI.java|1049|1055|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/RoyalAPI.java|1056|1060|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|1103|1117|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|fr/kintus/royalapi/RoyalAPI.java|1118|1127|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|fr/kintus/royalapi/RoyalAPI.java|1128|1136|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|1141|1160|RoyaltyEventManager|class|fr.kintus.royalapi.events.handler.RoyaltyEventManager|false
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|1248|1253|event|param|fr.kintus.royalapi.RoyalAPI|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|fr/kintus/royalapi/RoyalAPI.java|1190|1202|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|fr/kintus/royalapi/RoyalAPI.java|1220|1224|init|method|fr.kintus.royalapi.RoyalAPI|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fr/kintus/royalapi/RoyalAPI.java|1225|1247|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : fr.kintus.royalapi.RoyalAPI
+endProcessing "fr/kintus/royalapi/RoyalAPI.java"
+
+startProcessing "fr/kintus/royalapi/events/RoyaltyEventPlayer.java" md5: 73021244cadc38a221f3c3cb5dd283b4
+@|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|8|33|fr.kintus.royalapi.events|package|fr.kintus.royalapi.events|(file)
+Class Start: fr.kintus.royalapi.events.RoyaltyEventPlayer
+   @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|137|155|RoyaltyEventPlayer|class|fr.kintus.royalapi.events.RoyaltyEventPlayer|false
+   @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|164|169|Event|class|net.minecraftforge.fml.common.eventhandler.Event|false
+   @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|190|194|UUID|class|java.util.UUID|false
+   @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|190|194|UUID|class|java.util.UUID|false
+   @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|195|205|playerUUID|field|fr.kintus.royalapi.events.RoyaltyEventPlayer|playerUUID|
+   Method Start: RoyaltyEventPlayer(Ljava/util/UUID;)V
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|244|254|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer|RoyaltyEventPlayer|(Ljava/util/UUID;)V|playerUUID|0
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|220|238|RoyaltyEventPlayer|method|fr.kintus.royalapi.events.RoyaltyEventPlayer|RoyaltyEventPlayer|(Ljava/util/UUID;)V
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|239|243|UUID|class|java.util.UUID|false
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|266|276|playerUUID|field|fr.kintus.royalapi.events.RoyaltyEventPlayer|playerUUID
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|279|289|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer|RoyaltyEventPlayer|(Ljava/util/UUID;)V|playerUUID|0
+   Method End: RoyaltyEventPlayer(Ljava/util/UUID;)V
+   Class Start: fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|319|336|RoyaltyEventLogin|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|false
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|345|363|RoyaltyEventPlayer|class|fr.kintus.royalapi.events.RoyaltyEventPlayer|false
+      Method Start: RoyaltyEventLogin(Ljava/util/UUID;)V
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|409|419|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|RoyaltyEventLogin|(Ljava/util/UUID;)V|playerUUID|0
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|380|397|RoyaltyEventLogin|method|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|RoyaltyEventLogin|(Ljava/util/UUID;)V
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|404|408|UUID|class|java.util.UUID|false
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|433|443|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|RoyaltyEventLogin|(Ljava/util/UUID;)V|playerUUID|0
+      Method End: RoyaltyEventLogin(Ljava/util/UUID;)V
+   Class End  : fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin
+   Class Start: fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|490|508|RoyaltyEventLogout|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout|false
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|517|535|RoyaltyEventPlayer|class|fr.kintus.royalapi.events.RoyaltyEventPlayer|false
+      Method Start: RoyaltyEventLogout(Ljava/util/UUID;)V
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|582|592|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout|RoyaltyEventLogout|(Ljava/util/UUID;)V|playerUUID|0
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|552|570|RoyaltyEventLogout|method|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout|RoyaltyEventLogout|(Ljava/util/UUID;)V
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|577|581|UUID|class|java.util.UUID|false
+         @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|606|616|playerUUID|param|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout|RoyaltyEventLogout|(Ljava/util/UUID;)V|playerUUID|0
+      Method End: RoyaltyEventLogout(Ljava/util/UUID;)V
+   Class End  : fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout
+   Method Start: getPlayerUUID()Ljava/util/UUID;
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|649|653|UUID|class|java.util.UUID|false
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|654|667|getPlayerUUID|method|fr.kintus.royalapi.events.RoyaltyEventPlayer|getPlayerUUID|()Ljava/util/UUID;
+      @|fr/kintus/royalapi/events/RoyaltyEventPlayer.java|682|692|playerUUID|field|fr.kintus.royalapi.events.RoyaltyEventPlayer|playerUUID
+   Method End: getPlayerUUID()Ljava/util/UUID;
+Class End  : fr.kintus.royalapi.events.RoyaltyEventPlayer
+endProcessing "fr/kintus/royalapi/events/RoyaltyEventPlayer.java"
+
+startProcessing "fr/kintus/royalapi/events/handler/RoyaltyEventManager.java" md5: 6705a4a274d0a469821ea3cc8880573f
+@|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|8|41|fr.kintus.royalapi.events.handler|package|fr.kintus.royalapi.events.handler|(file)
+Class Start: fr.kintus.royalapi.events.handler.RoyaltyEventManager
+   @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|416|435|RoyaltyEventManager|class|fr.kintus.royalapi.events.handler.RoyaltyEventManager|false
+   Method Start: onPlayerLogin(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|560|561|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|445|459|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|460|468|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|471|484|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|485|492|HIGHEST|field|net.minecraftforge.fml.common.eventhandler.EventPriority|HIGHEST
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|508|521|onPlayerLogin|method|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|528|559|PlayerEvent.PlayerLoggedInEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|571|572|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|573|579|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|580|585|world|field|net.minecraft.entity.Entity|world
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|586|594|isRemote|field|net.minecraft.world.World|isRemote
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|611|619|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|620|626|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|627|631|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|682|696|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|697|706|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|707|711|post|method|net.minecraftforge.fml.common.eventhandler.EventBus|post|(Lnet/minecraftforge/fml/common/eventhandler/Event;)Z
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|716|733|RoyaltyEventLogin|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|734|735|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|736|742|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|743|754|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|795|803|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|804|810|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|811|815|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: onPlayerLogin(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+   Method Start: onPlayerLogout(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|966|967|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|849|863|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|864|872|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|875|888|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|889|896|HIGHEST|field|net.minecraftforge.fml.common.eventhandler.EventPriority|HIGHEST
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|912|926|onPlayerLogout|method|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|933|965|PlayerEvent.PlayerLoggedOutEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedOutEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|977|978|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|979|985|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|986|991|world|field|net.minecraft.entity.Entity|world
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|992|1000|isRemote|field|net.minecraft.world.World|isRemote
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1019|1027|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1028|1034|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1035|1039|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1091|1105|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1106|1115|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1116|1120|post|method|net.minecraftforge.fml.common.eventhandler.EventBus|post|(Lnet/minecraftforge/fml/common/eventhandler/Event;)Z
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1125|1142|RoyaltyEventLogin|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1143|1144|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1145|1151|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1152|1163|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1204|1212|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1213|1219|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1220|1224|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: onPlayerLogout(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+   Method Start: onPlayerLogin(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogin;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1381|1382|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogin;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1262|1276|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1277|1285|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1288|1301|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1302|1309|HIGHEST|field|net.minecraftforge.fml.common.eventhandler.EventPriority|HIGHEST
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1325|1338|onPlayerLogin|method|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogin|(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogin;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1345|1380|RoyaltyEventLogin.RoyaltyEventLogin|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogin|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1389|1397|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1398|1404|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1405|1409|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: onPlayerLogin(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogin;)V
+   Method Start: onPlayerLogout(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogout;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1574|1575|e|param|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogout;)V|e|0
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1453|1467|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1468|1476|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1479|1492|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1493|1500|HIGHEST|field|net.minecraftforge.fml.common.eventhandler.EventPriority|HIGHEST
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1516|1530|onPlayerLogout|method|fr.kintus.royalapi.events.handler.RoyaltyEventManager|onPlayerLogout|(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogout;)V
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1537|1573|RoyaltyEventLogin.RoyaltyEventLogout|class|fr.kintus.royalapi.events.RoyaltyEventPlayer.RoyaltyEventLogout|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1582|1590|RoyalAPI|class|fr.kintus.royalapi.RoyalAPI|false
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1591|1597|logger|field|fr.kintus.royalapi.RoyalAPI|logger
+      @|fr/kintus/royalapi/events/handler/RoyaltyEventManager.java|1598|1602|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: onPlayerLogout(Lfr/kintus/royalapi/events/RoyaltyEventPlayer$RoyaltyEventLogout;)V
+Class End  : fr.kintus.royalapi.events.handler.RoyaltyEventManager
+endProcessing "fr/kintus/royalapi/events/handler/RoyaltyEventManager.java"
+
+startProcessing "fr/kintus/royalapi/network/EmptyPacket.java" md5: 13cb7fa958789be8bdbb3e345e074b29
+@|fr/kintus/royalapi/network/EmptyPacket.java|8|34|fr.kintus.royalapi.network|package|fr.kintus.royalapi.network|(file)
+Class Start: fr.kintus.royalapi.network.EmptyPacket
+   @|fr/kintus/royalapi/network/EmptyPacket.java|361|372|EmptyPacket|class|fr.kintus.royalapi.network.EmptyPacket|false
+   @|fr/kintus/royalapi/network/EmptyPacket.java|384|392|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+   @|fr/kintus/royalapi/network/EmptyPacket.java|419|425|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/network/EmptyPacket.java|419|425|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/network/EmptyPacket.java|426|430|text|field|fr.kintus.royalapi.network.EmptyPacket|text|
+   Method Start: EmptyPacket()V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|514|525|EmptyPacket|method|fr.kintus.royalapi.network.EmptyPacket|EmptyPacket|()V
+   Method End: EmptyPacket()V
+   Method Start: EmptyPacket(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|725|732|parText|param|fr.kintus.royalapi.network.EmptyPacket|EmptyPacket|(Ljava/lang/String;)V|parText|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|706|717|EmptyPacket|method|fr.kintus.royalapi.network.EmptyPacket|EmptyPacket|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|718|724|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|753|757|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+      @|fr/kintus/royalapi/network/EmptyPacket.java|760|767|parText|param|fr.kintus.royalapi.network.EmptyPacket|EmptyPacket|(Ljava/lang/String;)V|parText|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|798|804|System|class|java.lang.System|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|805|808|out|field|java.lang.System|out
+      @|fr/kintus/royalapi/network/EmptyPacket.java|809|816|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: EmptyPacket(Ljava/lang/String;)V
+   Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1045|1048|buf|param|fr.kintus.royalapi.network.EmptyPacket|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1000|1008|Override|class|java.lang.Override|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1027|1036|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1037|1044|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1069|1073|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1076|1088|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1089|1103|readUTF8String|method|net.minecraftforge.fml.common.network.ByteBufUtils|readUTF8String|(Lio/netty/buffer/ByteBuf;)Ljava/lang/String;
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1104|1107|buf|param|fr.kintus.royalapi.network.EmptyPacket|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1206|1212|System|class|java.lang.System|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1213|1216|out|field|java.lang.System|out
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1217|1224|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1240|1244|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+   Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1445|1448|buf|param|fr.kintus.royalapi.network.EmptyPacket|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1402|1410|Override|class|java.lang.Override|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1429|1436|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1437|1444|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1469|1481|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1482|1497|writeUTF8String|method|net.minecraftforge.fml.common.network.ByteBufUtils|writeUTF8String|(Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1498|1501|buf|param|fr.kintus.royalapi.network.EmptyPacket|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1503|1507|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1539|1545|System|class|java.lang.System|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1546|1549|out|field|java.lang.System|out
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1550|1557|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1571|1575|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+   Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+   Class Start: fr.kintus.royalapi.network.EmptyPacket.Handler
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1614|1621|Handler|class|fr.kintus.royalapi.network.EmptyPacket.Handler|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1633|1648|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1649|1660|EmptyPacket|class|fr.kintus.royalapi.network.EmptyPacket|false
+      @|fr/kintus/royalapi/network/EmptyPacket.java|1662|1670|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      Method Start: onMessage(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1988|1995|message|param|fr.kintus.royalapi.network.EmptyPacket.Handler|onMessage|(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2012|2015|ctx|param|fr.kintus.royalapi.network.EmptyPacket.Handler|onMessage|(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1937|1945|Override|class|java.lang.Override|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1957|1965|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1966|1975|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1976|1987|EmptyPacket|class|fr.kintus.royalapi.network.EmptyPacket|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|1997|2011|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2038|2044|System|class|java.lang.System|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2045|2048|out|field|java.lang.System|out
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2049|2056|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2057|2063|String|class|java.lang.String|false
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2064|2070|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2094|2101|message|param|fr.kintus.royalapi.network.EmptyPacket.Handler|onMessage|(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2102|2106|text|field|fr.kintus.royalapi.network.EmptyPacket|text
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2108|2111|ctx|param|fr.kintus.royalapi.network.EmptyPacket.Handler|onMessage|(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2112|2128|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+         @|fr/kintus/royalapi/network/EmptyPacket.java|2131|2137|player|field|net.minecraft.network.NetHandlerPlayServer|player
+      Method End: onMessage(Lfr/kintus/royalapi/network/EmptyPacket;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+   Class End  : fr.kintus.royalapi.network.EmptyPacket.Handler
+Class End  : fr.kintus.royalapi.network.EmptyPacket
+endProcessing "fr/kintus/royalapi/network/EmptyPacket.java"
+
+startProcessing "fr/kintus/royalapi/network/ModAPIPacket.java" md5: dee3f79a4a7c016a807f928b66ce65ca
+@|fr/kintus/royalapi/network/ModAPIPacket.java|8|34|fr.kintus.royalapi.network|package|fr.kintus.royalapi.network|(file)
+Class Start: fr.kintus.royalapi.network.ModAPIPacket
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|287|299|ModAPIPacket|class|fr.kintus.royalapi.network.ModAPIPacket|false
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|324|344|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|false
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|324|344|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|false
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|345|363|NETWORK_DISPATCHER|field|fr.kintus.royalapi.network.ModAPIPacket|NETWORK_DISPATCHER|
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|366|381|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry|false
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|382|390|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|391|407|newSimpleChannel|method|net.minecraftforge.fml.common.network.NetworkRegistry|newSimpleChannel|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|408|416|ModUtils|class|fr.kintus.royalapi.utils.ModUtils|false
+   @|fr/kintus/royalapi/network/ModAPIPacket.java|417|422|MODID|field|fr.kintus.royalapi.utils.ModUtils|MODID
+   Method Start: init()V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|448|452|init|method|fr.kintus.royalapi.network.ModAPIPacket|init|()V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|460|475|registerPackets|method|fr.kintus.royalapi.network.ModAPIPacket|registerPackets|()V
+   Method End: init()V
+   Method Start: registerPackets()V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|510|525|registerPackets|method|fr.kintus.royalapi.network.ModAPIPacket|registerPackets|()V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|539|545|System|class|java.lang.System|false
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|546|549|out|field|java.lang.System|out
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|550|557|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|626|644|NETWORK_DISPATCHER|field|fr.kintus.royalapi.network.ModAPIPacket|NETWORK_DISPATCHER
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|645|660|registerMessage|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|registerMessage|(Ljava/lang/Class;Ljava/lang/Class;ILnet/minecraftforge/fml/relauncher/Side;)V
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|661|680|EmptyPacket.Handler|class|fr.kintus.royalapi.network.EmptyPacket.Handler|false
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|688|699|EmptyPacket|class|fr.kintus.royalapi.network.EmptyPacket|false
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|719|723|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|fr/kintus/royalapi/network/ModAPIPacket.java|724|730|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+   Method End: registerPackets()V
+Class End  : fr.kintus.royalapi.network.ModAPIPacket
+endProcessing "fr/kintus/royalapi/network/ModAPIPacket.java"
+
+startProcessing "fr/kintus/royalapi/utils/ModUtils.java" md5: f5a105804c75c60c92ac41bfaf253863
+@|fr/kintus/royalapi/utils/ModUtils.java|8|32|fr.kintus.royalapi.utils|package|fr.kintus.royalapi.utils|(file)
+Class Start: fr.kintus.royalapi.utils.ModUtils
+   @|fr/kintus/royalapi/utils/ModUtils.java|50|58|ModUtils|class|fr.kintus.royalapi.utils.ModUtils|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|88|94|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|88|94|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|95|100|MODID|field|fr.kintus.royalapi.utils.ModUtils|MODID|
+   @|fr/kintus/royalapi/utils/ModUtils.java|143|149|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|143|149|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|150|154|NAME|field|fr.kintus.royalapi.utils.ModUtils|NAME|
+   @|fr/kintus/royalapi/utils/ModUtils.java|197|203|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|197|203|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/ModUtils.java|204|211|VERSION|field|fr.kintus.royalapi.utils.ModUtils|VERSION|
+Class End  : fr.kintus.royalapi.utils.ModUtils
+endProcessing "fr/kintus/royalapi/utils/ModUtils.java"
+
+startProcessing "fr/kintus/royalapi/utils/file/FileUtils.java" md5: 00f9d5aabe7369923b7a2ed0f93e7e27
+@|fr/kintus/royalapi/utils/file/FileUtils.java|8|37|fr.kintus.royalapi.utils.file|package|fr.kintus.royalapi.utils.file|(file)
+Class Start: fr.kintus.royalapi.utils.file.FileUtils
+   @|fr/kintus/royalapi/utils/file/FileUtils.java|268|277|FileUtils|class|fr.kintus.royalapi.utils.file.FileUtils|false
+   @|fr/kintus/royalapi/utils/file/FileUtils.java|303|309|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/file/FileUtils.java|303|309|String|class|java.lang.String|false
+   @|fr/kintus/royalapi/utils/file/FileUtils.java|310|329|pathCustomNPCFolder|field|fr.kintus.royalapi.utils.file.FileUtils|pathCustomNPCFolder|
+   Method Start: readCustomNPCDataFile(Ljava/util/UUID;)Ljava/lang/String;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|413|417|uuid|param|fr.kintus.royalapi.utils.file.FileUtils|readCustomNPCDataFile|(Ljava/util/UUID;)Ljava/lang/String;|uuid|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|379|385|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|386|407|readCustomNPCDataFile|method|fr.kintus.royalapi.utils.file.FileUtils|readCustomNPCDataFile|(Ljava/util/UUID;)Ljava/lang/String;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|408|412|UUID|class|java.util.UUID|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|441|449|readFile|method|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|450|469|pathCustomNPCFolder|field|fr.kintus.royalapi.utils.file.FileUtils|pathCustomNPCFolder
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|472|476|uuid|param|fr.kintus.royalapi.utils.file.FileUtils|readCustomNPCDataFile|(Ljava/util/UUID;)Ljava/lang/String;|uuid|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|488|495|Charset|class|java.nio.charset.Charset|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|496|510|defaultCharset|method|java.nio.charset.Charset|defaultCharset|()Ljava/nio/charset/Charset;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|527|538|IOException|class|java.io.IOException|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|589|604|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: readCustomNPCDataFile(Ljava/util/UUID;)Ljava/lang/String;
+   Method Start: writeCustomNPCDataFile(Ljava/util/UUID;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|686|690|uuid|param|fr.kintus.royalapi.utils.file.FileUtils|writeCustomNPCDataFile|(Ljava/util/UUID;Ljava/lang/String;)V|uuid|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|699|710|fileContent|param|fr.kintus.royalapi.utils.file.FileUtils|writeCustomNPCDataFile|(Ljava/util/UUID;Ljava/lang/String;)V|fileContent|1
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|658|680|writeCustomNPCDataFile|method|fr.kintus.royalapi.utils.file.FileUtils|writeCustomNPCDataFile|(Ljava/util/UUID;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|681|685|UUID|class|java.util.UUID|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|692|698|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|717|728|writeToFile|method|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|729|748|pathCustomNPCFolder|field|fr.kintus.royalapi.utils.file.FileUtils|pathCustomNPCFolder
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|751|755|uuid|param|fr.kintus.royalapi.utils.file.FileUtils|writeCustomNPCDataFile|(Ljava/util/UUID;Ljava/lang/String;)V|uuid|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|767|778|fileContent|param|fr.kintus.royalapi.utils.file.FileUtils|writeCustomNPCDataFile|(Ljava/util/UUID;Ljava/lang/String;)V|fileContent|1
+   Method End: writeCustomNPCDataFile(Ljava/util/UUID;Ljava/lang/String;)V
+   Method Start: writeToFile(Ljava/lang/String;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|834|838|path|param|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V|path|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|847|854|content|param|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V|content|1
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|815|826|writeToFile|method|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|827|833|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|840|846|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|864|878|BufferedWriter|class|java.io.BufferedWriter|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|921|935|BufferedWriter|class|java.io.BufferedWriter|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|940|950|FileWriter|class|java.io.FileWriter|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|951|955|path|param|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V|path|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|972|977|write|method|java.io.Writer|write|(Ljava/lang/String;)V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|978|985|content|param|fr.kintus.royalapi.utils.file.FileUtils|writeToFile|(Ljava/lang/String;Ljava/lang/String;)V|content|1
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1002|1013|IOException|class|java.io.IOException|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1135|1140|close|method|java.lang.AutoCloseable|close|()V
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1158|1169|IOException|class|java.io.IOException|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1224|1239|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: writeToFile(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: readFile(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1318|1322|path|param|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;|path|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1332|1340|encoding|param|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;|encoding|1
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1295|1301|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1302|1310|readFile|method|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1311|1317|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1324|1331|Charset|class|java.nio.charset.Charset|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1353|1364|IOException|class|java.io.IOException|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1389|1394|Files|class|java.nio.file.Files|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1395|1407|readAllBytes|method|java.nio.file.Files|readAllBytes|(Ljava/nio/file/Path;)[B
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1408|1413|Paths|class|java.nio.file.Paths|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1414|1417|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1418|1422|path|param|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;|path|0
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1440|1446|String|class|java.lang.String|false
+      @|fr/kintus/royalapi/utils/file/FileUtils.java|1456|1464|encoding|param|fr.kintus.royalapi.utils.file.FileUtils|readFile|(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;|encoding|1
+   Method End: readFile(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+Class End  : fr.kintus.royalapi.utils.file.FileUtils
+endProcessing "fr/kintus/royalapi/utils/file/FileUtils.java"
+
