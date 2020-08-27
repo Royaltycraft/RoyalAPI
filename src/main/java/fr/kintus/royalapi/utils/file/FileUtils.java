@@ -8,6 +8,14 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.UUID;
 
+/**
+ * A Class providing static functions to manage a json data file for a player without the need of parsing its content.
+ * Currently handling CustomNPCs.
+ * 
+ * In the future, it would be interesting to check if parsing costs will be better than a complete file erase/write.
+ * @author K1ntus
+ *
+ */
 public final class FileUtils {
 	private static final String pathCustomNPCFolder = "customnpcs/playerdata/";
 	

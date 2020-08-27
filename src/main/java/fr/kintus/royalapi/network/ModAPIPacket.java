@@ -5,6 +5,11 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 
+/**
+ * Simple class managing the registration of custom packets.
+ * @author K1ntus
+ *
+ */
 public class ModAPIPacket {
 	public static final SimpleNetworkWrapper NETWORK_DISPATCHER = NetworkRegistry.INSTANCE.newSimpleChannel(ModUtils.MODID);
 

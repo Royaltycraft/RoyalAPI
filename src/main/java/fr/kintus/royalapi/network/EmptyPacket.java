@@ -6,6 +6,12 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 
+/**
+ * An empty Packet sample. It would allows the server to get a player UUID in specific situation
+ * since a packet contains this informations.
+ * @author K1ntus
+ *
+ */
 public class EmptyPacket implements IMessage {
 	
 	    

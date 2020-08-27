@@ -11,6 +11,12 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+
+/**
+ * Main Class managing the common side (Both Client & Server)
+ * @author K1ntus
+ *
+ */
 @Mod(modid = ModUtils.MODID, name = ModUtils.NAME, version = ModUtils.VERSION)
 public class RoyalAPI {
 
@@ -21,8 +27,15 @@ public class RoyalAPI {
 	 */
 //	public static EventBus royaltyEventBus = new EventBus();
 	
+	/**
+	 * Log4j Logger
+	 */
     public static Logger logger;
 
+    /**
+     * Pre-initialization Forge Event. Used to register custom events used across different dependencies.
+     * @param event
+     */
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
