@@ -1,10 +1,10 @@
-package fr.kintus.royalapi;
+package fr.kintus.royalclasses;
 
 import org.apache.logging.log4j.Logger;
 
-import fr.kintus.royalapi.events.handler.RoyaltyEventManager;
-import fr.kintus.royalapi.network.ModAPIPacket;
-import fr.kintus.royalapi.utils.ModUtils;
+import fr.kintus.royalclasses.events.handler.RoyaltyEventManager;
+import fr.kintus.royalclasses.network.ModAPIPacket;
+import fr.kintus.royalclasses.utils.ModUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  *
  */
 @Mod(modid = ModUtils.MODID, name = ModUtils.NAME, version = ModUtils.VERSION)
-public class RoyalAPI {
+public class RoyalClasses {
 
 	
 	/**
@@ -42,10 +42,10 @@ public class RoyalAPI {
         
         
 		logger.info("===== Registering API Packets =====");
-    	ModAPIPacket.init();
+//    	ModAPIPacket.init();
     	
 		logger.info("===== Registering API Events =====");
-		MinecraftForge.EVENT_BUS.register(new RoyaltyEventManager());
+//		MinecraftForge.EVENT_BUS.register(new RoyaltyEventManager());
         
     }
 

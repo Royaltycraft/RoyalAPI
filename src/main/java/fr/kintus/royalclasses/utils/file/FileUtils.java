@@ -1,4 +1,4 @@
-package fr.kintus.royalapi.utils.file;
+package fr.kintus.royalclasses.utils.file;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,6 +1,6 @@
-package fr.kintus.royalapi.network;
+package fr.kintus.royalclasses.network;
 
-import fr.kintus.royalapi.utils.ModUtils;
+import fr.kintus.royalclasses.utils.ModUtils;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;

@@ -1,4 +1,4 @@
-package fr.kintus.royalapi.network;
+package fr.kintus.royalclasses.network;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.network.ByteBufUtils;

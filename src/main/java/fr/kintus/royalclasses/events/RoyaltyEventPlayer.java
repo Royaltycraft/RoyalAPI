@@ -1,4 +1,4 @@
-package fr.kintus.royalapi.events;
+package fr.kintus.royalclasses.events;
 
 import java.util.UUID;
 
